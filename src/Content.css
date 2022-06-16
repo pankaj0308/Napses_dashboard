@@ -1,0 +1,236 @@
+@import url('http://fonts.cdnfonts.com/css/berlin-sans-fb-demi');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+.content-container{
+  padding: 0px 67px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.content-header-search{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.content-header-search img{
+  position: absolute;
+  left: 24px;
+  top: 48px;
+}
+
+.content-header-search input{
+  height: 46px;
+  width: 100%;
+  border-radius: 40px;
+  outline: none;
+  padding-left: 60px;
+  background-color: #F7F8FA;
+  margin-top: 33px;
+  border: none;
+}
+
+.content-header-search input::placeholder{
+ font-weight: lighter; 
+ font-size: 16px;
+ color: #7b7b7b;
+}
+
+/* Main content */
+
+.content-cards h2{
+  font-size: 36px;
+  font-weight: 700;
+  color: #393939;
+  margin-bottom: 22px;
+}
+
+.content-cards-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+  
+}
+
+.content-card{
+  height: 263px;
+  width: 178px;
+  padding-left: 15px;
+  border-radius: 10px;
+  font-family: 'Berlin Sans FB Demi', sans-serif;
+  background-color: #fde4f9;
+  position: relative;
+}
+
+.content-card:first-child{
+  background-color: #fdedd5 ;
+  margin-right: 15px;
+}
+
+.content-card:nth-child(2){
+  margin: 0px 15px;
+}
+.content-card:last-child{
+  background-color: #B5e0e9;
+  margin-left: 15px ;
+}
+
+.content-card p{
+  margin-top: 29px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.content-card i{
+  position: absolute;
+  right: 28px;
+  top: 29px;
+  color: #182b73;
+}
+
+.content-card img{
+  display: block;
+  margin-top: 18px;
+  
+}
+
+.content-card h3{
+color: #3e3c7b;
+font-size: 22px;
+}
+
+.content-card:last-child h3{
+  margin-top: 35px;
+}
+
+.content-card small{
+  color: #3e3c7b;
+  font-size: 12px;
+}
+
+.content-card-scroll{
+  width: 332px;
+  height: 7px;
+  background-color: #f7f8fa;
+  margin-top: 60px;
+  border-radius: 24px;
+  align-self: center;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.content-card-scroll::after{
+  content: "";
+  height: 7px;
+  background: #3936fc;
+  width: 71px;
+  position: absolute;
+  left:131px;
+  z-index: 2;
+  border-radius: 24px;
+}
+
+/* Activity*/
+
+.content-activity-header{
+  display: flex;
+  align-items: center;
+}
+
+.activity-heading{
+  line-height: 4px;
+  width: 504px;
+  position: relative;
+}
+.activity-heading h2{
+  font-size: 30px;
+  font-weight: 700;
+}
+.activity-heading p{
+  font-weight: 600;
+  font-family: 'Berlin Sans FB Demi', sans-serif;
+  font-size: 16px; 
+  color: #6F767E;
+}
+
+.activity-heading a{
+  position: absolute;
+  bottom: 16px;
+  right: 191px;
+  color: #6F767E;
+  font-size: 18px;
+  font-family:  'Balsamiq Sans', cursive;
+}
+
+.activity-header-icons{
+ width: 90px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.activity-icon-container{
+  margin-top: 5px;
+  background-color: #F7F7F9;
+  height: 41px;
+  width: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.bg-primary{
+  background-color: #51459E;
+}
+
+/* Activity info*/
+.content-activity-info{
+  margin-top: 46px ;
+}
+
+.content-activity-info .info-row{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 53px;
+}
+
+.info-row .info-icon-container{
+  height: 51px;
+  width: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.info-row .insurance{
+  background: rgb(26, 85, 175,10%);
+}
+
+.info-row .electricity{
+  background: rgb(250, 95, 28,10%);
+}
+
+.info-row .activity-info-details{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 0px 16px;
+font-family: 'Berlin Sans FB Demi', sans-serif;
+}
+
+.activity-info-details h4{
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+}
+
+.activity-info-details p{
+  margin: 2px 0px;
+  padding: 0px;
+  font-size: 13px;
+  color: #6F767E;
+}
+

@@ -1,0 +1,245 @@
+@import url('http://fonts.cdnfonts.com/css/berlin-sans-fb-demi');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+.right-sidebar{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.payments{
+  display: flex;
+  flex-direction: column;
+}
+
+.payments-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 34px;
+}
+
+.payments-header h2{
+  margin: 0px;
+  margin-right: 50px;
+  padding: 0px;
+  font-size: 34px;
+}
+
+.payments-header .btn{
+  width: 105px;
+  height: 47px;
+  color: #000;
+}
+
+/* payment card */
+
+.payments-cards{
+  margin-top: 32px;
+}
+
+.payment-card{
+  background-color: #fff;
+  width: 344px;
+  height: 118px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.ltc{
+  box-shadow: 21px 21px 79px #f4f4f4
+}
+
+.currency-circular-container{
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: #f9896b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 16px;
+  left: 17px;
+}
+
+.currency-link{
+  background-color: #2fe6c8;
+}
+
+.payment-card p{
+  position: absolute;
+  top: 15px;
+  left: 66px;
+  font-size: 12px;
+  font-family: 'Berlin Sans FB Demi', sans-serif;
+}
+
+.payment-card p span{
+  margin-left: 26px;
+  color: #afbccd;
+}
+
+.payment-amount{
+  position: absolute;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1b1d4e;
+  top: 20px;
+  right: 26px;
+  box-shadow: 7px 7px 27px rgb(244, 244, 244,0.8) ;
+  padding: 3px;
+}
+
+.payment-time{
+  font-size: 12px;
+  font-weight: light;
+  color: #1B1D4E;
+  position: absolute;
+  bottom:23px;
+  left: 23px;
+}
+
+.user0{
+  position: absolute;
+  right: 53px;
+  bottom: 21px;
+}
+
+.user1{
+  position: absolute;
+  right: 39px;
+  bottom: 21px;
+}
+
+.user2{
+  position: absolute;
+  right: 28px;
+  bottom: 21px;
+}
+
+/* New Transfer*/
+
+.payments-add{
+  margin-top: 32px;
+  width: 344px;
+  position: relative;
+  margin-bottom: 69px;
+}
+
+.edit-container{
+  position: absolute;
+  left:6px;
+  top: 6px;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newButton{
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color:#51459e;
+  background-color: rgb(82, 70, 160,20%);
+  font-family:'Berlin Sans FB Demi', sans-serif ;
+}
+
+.addDark{
+  position: absolute;
+  top: 19px;
+  left: 105px;
+}
+
+/* Wallet */
+
+.wallets-header h2{
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.wallet-list{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wallet-row{
+  display: grid;
+  grid-template-columns:1fr 4fr 1fr;
+  align-items: center;
+  /* margin-bottom: 16px; */
+}
+
+.wallet-row>*{
+  padding: 0px;
+}
+
+.wallet-icon-container{
+  height: 47px;
+  width: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  padding: 0px;
+}
+
+.wallet-bte{
+  background-color: #fff3f1;
+}
+
+.wallet-dai{
+  background-color: #fcf6dd;
+}
+
+.wallet-xrp{
+  background-color: #e0f4f8;
+}
+.wallet-usdt{
+  background-color: #e0f8f2;
+}
+
+.wallet-info{
+  line-height: 9px;
+}
+
+.wallet-info .name{
+  font-family:'Berlin Sans FB Demi', sans-serif  ;
+  color:#5d4e7b ;
+}
+
+.wallet-info .fullName{
+  font-size: 10px;
+  font-weight: 300;
+  color: #5d4e7b;
+}
+
+.wallet-stat{
+  line-height: 9px;
+  text-align: end;
+}
+
+.wallet-stat .percent{
+  font-size: 18px;
+  color: #5d4e7b;
+  font-weight: 400;
+  font-family: 'Berlin Sans FB Demi', sans-serif;
+}
+
+.wallet-stat .variance{
+  font-size: 13px;
+  font-weight: 300;
+  color: #5d4e7b;
+}
+
+.positive{
+  color: #50dfb2 !important;
+}
